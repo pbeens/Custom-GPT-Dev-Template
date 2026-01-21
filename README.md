@@ -23,6 +23,7 @@ This repository is designed to be used as a **Template**. Do **not** fork this r
 ### Step 3: Start Developing with Antigravity
 1.  Open the cloned folder in **Antigravity** (or your preferred AI coding assistant).
 2.  Instruct the AI to **"Read gemini.md"** to initialize the session.
+3.  The AI will ask you to define the purpose and goals of your Custom GPT.
 
 ## Purpose
 
@@ -41,7 +42,8 @@ Developing a high-quality Custom GPT requires iteration. This repository provide
 │   └── Prompt_v0.02.md       # ...
 ├── skills/                   # Knowledge base and testing personas
 │   ├── Prompt_Engineering.md # Best practices checklist
-│   └── Testing_Personas.md   # Personas to simulate users
+│   ├── Testing_Personas.md   # Personas to simulate users
+│   └── Iterative_Improvement.md # Protocol for testing and refining prompts
 └── README.md                 # This file
 ```
 
@@ -57,3 +59,10 @@ Developing a high-quality Custom GPT requires iteration. This repository provide
 ## Security Policy
 
 All prompts generated in this repository adhere to a strict security policy to prevent the leakage of system instructions. This policy is automatically appended to every version.
+
+## Contributing & Feedback
+This template is a living document. If you have recommendations for improving this process—such as new skills, better testing workflows, or prompt engineering tips—please suggest them!
+
+**Recommendation Loop**:
+1.  Use the `Iterative_Improvement.md` skill to test your changes.
+2.  If you find a gap in the process, ask the AI to "Add a new skill" or "Update the README".
