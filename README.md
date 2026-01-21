@@ -4,27 +4,19 @@ This repository serves as a template and workspace for developing, versioning, a
 
 ## Getting Started
 
-This repository is designed to be used as a **Template**, but you can also fork it if you prefer.
+### Step 1: Get the Code
 
-### Step 1: Create Your Repository
-**Method A: Use as Template (Recommended)**
-1.  Click the green **"Use this template"** button at the top of this repository page.
-2.  Select **"Create a new repository"**.
-3.  Name your new repository (e.g., `My-Custom-GPT`).
-4.  Click **"Create repository"**.
+**Method A: Download as ZIP (No GitHub Account Required)**
+1.  Click the green **"Code"** button at the top of this repository page.
+2.  Select **"Download ZIP"**.
+3.  Extract the ZIP file to a folder on your computer and open it.
 
-**Method B: Clone or Fork (Standard)**
-*If you don't see the "Use this template" button:*
-1.  Click the green **"Code"** button.
-2.  Copy the URL to clone via HTTPS/SSH, or select **"Download ZIP"**.
-3.  Alternatively, click **"Fork"** in the top-right corner if you want to contribute back.
+**Method B: Use as Template or Fork (For GitHub Users)**
+1.  Click the green **"Use this template"** button at the top of the page to create a new repository in your account.
+2.  OR click **"Fork"** in the top-right corner if you want to contribute back.
 
-### Step 2: Clone to Your Machine
-**Using GitHub Desktop or Terminal:**
-1.  Clone your new repository (or the downloaded copy) to your local machine.
-
-### Step 3: Start Developing with Antigravity
-1.  Open the cloned folder in **Antigravity** (or your preferred AI coding assistant).
+### Step 2: Start Developing with Antigravity
+1.  Open the folder in **Antigravity** (or your preferred AI coding assistant).
 2.  Instruct the AI to **"Read gemini.md"** to initialize the session.
 3.  The AI will ask you to define the purpose and goals of your Custom GPT.
 
