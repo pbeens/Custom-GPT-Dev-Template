@@ -4,21 +4,24 @@ This repository serves as a template and workspace for developing, versioning, a
 
 ## Getting Started
 
-This repository is designed to be used as a **Template**. Do **not** fork this repository, as forks are intended for contributing back to the template itself.
+This repository is designed to be used as a **Template**, but you can also fork it if you prefer.
 
 ### Step 1: Create Your Repository
-**Method A: GitHub Website (Recommended)**
+**Method A: Use as Template (Recommended)**
 1.  Click the green **"Use this template"** button at the top of this repository page.
 2.  Select **"Create a new repository"**.
 3.  Name your new repository (e.g., `My-Custom-GPT`).
 4.  Click **"Create repository"**.
 
+**Method B: Clone or Fork (Standard)**
+*If you don't see the "Use this template" button:*
+1.  Click the green **"Code"** button.
+2.  Copy the URL to clone via HTTPS/SSH, or select **"Download ZIP"**.
+3.  Alternatively, click **"Fork"** in the top-right corner if you want to contribute back.
+
 ### Step 2: Clone to Your Machine
-**Using GitHub Desktop:**
-1.  Open GitHub Desktop.
-2.  Go to `File` > `Clone repository`.
-3.  Select your newly created repository (`My-Custom-GPT`) from the list.
-4.  Click **Clone**.
+**Using GitHub Desktop or Terminal:**
+1.  Clone your new repository (or the downloaded copy) to your local machine.
 
 ### Step 3: Start Developing with Antigravity
 1.  Open the cloned folder in **Antigravity** (or your preferred AI coding assistant).
