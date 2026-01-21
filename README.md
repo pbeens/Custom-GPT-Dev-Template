@@ -1,2 +1,59 @@
-# Custom-GPT-Temp-Repo
-Temporary local repository for experimenting with Custom GPT development workflows and prompt iteration.
+# Custom GPT Template Repository
+
+This repository serves as a template and workspace for developing, versioning, and testing System Prompts for Custom GPTs.
+
+## Getting Started
+
+This repository is designed to be used as a **Template**. Do **not** fork this repository, as forks are intended for contributing back to the template itself.
+
+### Step 1: Create Your Repository
+**Method A: GitHub Website (Recommended)**
+1.  Click the green **"Use this template"** button at the top of this repository page.
+2.  Select **"Create a new repository"**.
+3.  Name your new repository (e.g., `My-Custom-GPT`).
+4.  Click **"Create repository"**.
+
+### Step 2: Clone to Your Machine
+**Using GitHub Desktop:**
+1.  Open GitHub Desktop.
+2.  Go to `File` > `Clone repository`.
+3.  Select your newly created repository (`My-Custom-GPT`) from the list.
+4.  Click **Clone**.
+
+### Step 3: Start Developing with Antigravity
+1.  Open the cloned folder in **Antigravity** (or your preferred AI coding assistant).
+2.  Instruct the AI to **"Read gemini.md"** to initialize the session.
+
+## Purpose
+
+Developing a high-quality Custom GPT requires iteration. This repository provides a structured way to:
+1.  **Version Control your Prompts**: Keep a history of every change to the system instructions.
+2.  **Collaborate with AI**: Use the `gemini.md` file to instruct an AI assistant (like me) on how to effectively managing this workflow.
+3.  **Test Systematically**: Use valid test cases and specific "skills" (personas) to ensure reliability.
+
+## Directory Structure
+
+```text
+.
+├── gemini.md                 # Meta-instructions for the AI assistant developing this repo
+├── prompts/                  # Directory containing versioned system prompts
+│   ├── Prompt_v0.01.md       # Initial Version
+│   └── Prompt_v0.02.md       # ...
+├── skills/                   # Knowledge base and testing personas
+│   ├── Prompt_Engineering.md # Best practices checklist
+│   └── Testing_Personas.md   # Personas to simulate users
+└── README.md                 # This file
+```
+
+## How to use this Template
+
+1.  **Start a new Session**: When you open this repository with an AI assistant (like Gemini/Antigravity), ask it to "Read gemini.md" first.
+2.  **Iterate**: 
+    - The AI will look at the latest prompt in `prompts/`.
+    - Discuss improvements.
+    - The AI will generate the *next* version number (e.g., `Prompt_v0.02.md`).
+3.  **Copy to GPT**: Once satisfied, copy the content of the latest prompt file into your Custom GPT's "Instructions" field.
+
+## Security Policy
+
+All prompts generated in this repository adhere to a strict security policy to prevent the leakage of system instructions. This policy is automatically appended to every version.
