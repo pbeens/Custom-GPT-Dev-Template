@@ -1,6 +1,8 @@
 # Custom GPT Template Repository
 
-This repository serves as a template and workspace for developing, versioning, and testing System Prompts for Custom GPTs.
+This repository serves as a template and workspace for developing, versioning, and testing System Prompts for Custom GPTs. 
+
+> **Recommendation**: This workflow is optimized for **[Antigravity](https://antigravity.google/)**, an agentic AI IDE that can automate the entire development process for you.
 
 ## Getting Started
 
@@ -16,9 +18,14 @@ This repository serves as a template and workspace for developing, versioning, a
 2.  OR click **"Fork"** in the top-right corner if you want to contribute back.
 
 ### Step 2: Start Developing with Antigravity
-1.  Open the folder in **Antigravity** (or your preferred AI coding assistant).
-2.  Instruct the AI to **"Read gemini.md"** to initialize the session.
-3.  The AI will ask you to define the purpose and goals of your Custom GPT.
+1.  **Install Antigravity**: If you haven't already, download it from [antigravity.google](https://antigravity.google/).
+2.  **Open the Project**:
+    - Launch Antigravity.
+    - Click **"Open Folder"**.
+    - Select the folder you just extracted (from Step 1).
+3.  **Initialize the Agent**:
+    - In the chat interface, type: **"Read gemini.md"**.
+    - The AI will read the instructions and ask you to define the purpose and goals of your Custom GPT.
 
 ## Purpose
 
