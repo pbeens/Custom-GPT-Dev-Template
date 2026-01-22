@@ -17,28 +17,28 @@ This repository serves as a template and workspace for developing, versioning, a
 1.  Click the green **"Use this template"** button at the top of the page to create a new repository in your account.
 2.  OR click **"Fork"** in the top-right corner if you want to contribute back.
 
-### Step 2: Start Developing with Antigravity
+### Step 2: Start Developing
 1.  **Install Antigravity**: If you haven't already, download it from [antigravity.google](https://antigravity.google/).
 2.  **Open the Project**:
     - Launch Antigravity.
     - Click **"Open Folder"**.
     - Select the folder you just extracted (from Step 1).
 3.  **Initialize the Agent**:
-    - In the chat interface, type: **"Read gemini.md"**.
+    - In the chat interface, type: **"Read PROTOCOL.md"**.
     - The AI will read the instructions and ask you to define the purpose and goals of your Custom GPT.
 
 ## Purpose
 
 Developing a high-quality Custom GPT requires iteration. This repository provides a structured way to:
 1.  **Version Control your Prompts**: Keep a history of every change to the system instructions.
-2.  **Collaborate with AI**: Use the `gemini.md` file to instruct an AI assistant (like me) on how to effectively managing this workflow.
+2.  **Collaborate with AI**: Use the `PROTOCOL.md` file to instruct an AI assistant (like me) on how to effectively managing this workflow.
 3.  **Test Systematically**: Use valid test cases and specific "skills" (personas) to ensure reliability.
 
 ## Directory Structure
 
 ```text
 .
-├── gemini.md                 # Meta-instructions for the AI assistant developing this repo
+├── PROTOCOL.md               # Meta-instructions for the AI (Antigravity/Gemini/Claude)
 ├── prompts/                  # Directory containing versioned system prompts
 │   ├── Prompt_v0.01.md       # Initial Version
 │   └── Prompt_v0.02.md       # ...
@@ -51,7 +51,7 @@ Developing a high-quality Custom GPT requires iteration. This repository provide
 
 ## How to use this Template
 
-1.  **Start a new Session**: When you open this repository with an AI assistant (like Gemini/Antigravity), ask it to "Read gemini.md" first.
+1.  **Start a new Session**: When you open this repository with an AI assistant (like Gemini/Antigravity/Claude), ask it to "Read PROTOCOL.md" first.
 2.  **Iterate**: 
     - The AI will look at the latest prompt in `prompts/`.
     - Discuss improvements.
