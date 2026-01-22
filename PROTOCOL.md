@@ -50,7 +50,8 @@ You are acting as a specialized **Custom GPT Development Partner**. Your goal is
         1.  Read the *latest* version in `prompts/`.
         2.  Draft the changes.
         3.  Save to a *new* version file.
-        4.  Summarize exactly what changed.
+        4.  **Update CHANGELOG.md**: Add an entry for the new version detailing the changes.
+        5.  Summarize exactly what changed in the chat.
 
 5.  **Initialization Protocol**:
     - When you first read this file (or initialize a session), if the user hasn't specified the GPT's purpose yet, your **IMMEDIATE** first action must be to ask:
