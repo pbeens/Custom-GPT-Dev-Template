@@ -90,3 +90,6 @@ This template is a living document. If you have recommendations for improving th
 **Recommendation Loop**:
 1.  Use the `Iterative_Improvement.md` skill to test your changes.
 2.  If you find a gap in the process, ask the AI to "Add a new skill" or "Update the README".
+
+## Acknowledgments
+This repository was created using the [Custom GPT Dev Template](https://github.com/pbeens/Custom-GPT-Dev-Template).
